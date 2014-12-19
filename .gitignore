@@ -1,0 +1,41 @@
+/web/bundles/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/build/
+/vendor/
+/bin/
+/composer.phar
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads/*
+web/bundles/acmedemo
+web/bundles/framework
+web/bundles/sensiodistribution
+web/css/vendor/twbs/*
+
+# Composer
+composer.phar
+
+# PHPStorm
+.idea/*
+
+# Cache & Logs
+app/cache/*
+!app/cache/.gitkeep
+app/logs/*
+!app/logs/.gitkeep
+
+# Node/NPM/Grunt
+node_modules
+.npm-debug.log
+tmp
+
+# Misc.
+nohup.out
